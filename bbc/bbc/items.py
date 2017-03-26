@@ -11,6 +11,7 @@ import scrapy
 class BbcItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    link = scrapy.Field()
+    country = scrapy.Field()
+    url = scrapy.Field()
     title = scrapy.Field()
     content = scrapy.Field()

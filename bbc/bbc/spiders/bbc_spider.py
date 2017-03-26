@@ -63,5 +63,5 @@ class bbcSpider(CrawlSpider):
              content = content + con.encode('utf-8')
          item['content'] = content
          link = str(response.url)
-         item['link'] = link.encode('utf-8')
+         item['url'] = link.encode('utf-8')
          return item

@@ -120,3 +120,10 @@ REDIS_PORT = 6379
 # If set, this takes precedence over the REDIS_HOST and REDIS_PORT settings.
 # REDIS_URL = 'redis://user:pass@hostname:9001'
 ####################################################
+
+#########mysql#####
+
+MYSQL_HOST = "127.0.0.1"
+MYSQL_USER = "root"
+MYSQL_PASSWD = "password"
+MYSQL_DB = "bbc"
