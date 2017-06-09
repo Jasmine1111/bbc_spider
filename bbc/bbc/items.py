@@ -10,6 +10,7 @@ import scrapy
 
 class BbcItem(scrapy.Item):
     # define the fields for your item here like:
+
     # name = scrapy.Field()
     country = scrapy.Field()
     url = scrapy.Field()
